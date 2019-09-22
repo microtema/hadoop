@@ -15,23 +15,47 @@
       <executable />
     </execution>
   </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="221" />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.72303206">
+    <splitter split-orientation="horizontal" split-proportion="0.7638484">
       <split-first>
         <leaf>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/de/microtema/hadoop/WordCounterMapperTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="540">
-                  <caret line="80" column="113" selection-start-line="80" selection-start-column="113" selection-end-line="80" selection-end-column="113" />
+                <state relative-caret-position="477">
+                  <caret line="76" column="109" selection-start-line="76" selection-start-column="109" selection-end-line="76" selection-end-column="109" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#946#947#0" expanded="true" />
                     <element signature="e#999#1000#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/pom.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="105">
+                  <caret line="7" column="22" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="22" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/README.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="SPLIT">
+                  <first_editor relative-caret-position="15">
+                    <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="28" />
+                  </first_editor>
+                  <second_editor />
                 </state>
               </provider>
             </entry>
@@ -55,8 +79,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/de/microtema/hadoop/WordCounterMapper.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="345">
-                  <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+                <state relative-caret-position="480">
+                  <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -204,6 +228,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
@@ -296,23 +321,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569136159689</updated>
-      <workItem from="1569136164334" duration="7267000" />
+      <workItem from="1569136164334" duration="7538000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WordCounterMapReducerTest_reduceWithMultipleValues - 2019.09.22 at 11h 09m 19s.xml">
-      <configuration name="WordCounterMapReducerTest.reduceWithMultipleValues" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WordCounterMapReducerTest_reduceWithMultipleValues - 2019.09.22 at 11h 10m 42s.xml">
-      <configuration name="WordCounterMapReducerTest.reduceWithMultipleValues" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WordCounterMapReducerTest_reduceWithMultipleValues - 2019.09.22 at 11h 12m 56s.xml">
-      <configuration name="WordCounterMapReducerTest.reduceWithMultipleValues" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WordCounterMapReducerTest_reduceWithMultipleValues - 2019.09.22 at 11h 13m 18s.xml">
-      <configuration name="WordCounterMapReducerTest.reduceWithMultipleValues" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="WordCounterMapReducerTest_reduceWithMultipleValues - 2019.09.22 at 11h 13m 22s.xml">
       <configuration name="WordCounterMapReducerTest.reduceWithMultipleValues" configurationId="JUnit" />
     </history-entry>
@@ -331,9 +344,21 @@
     <history-entry file="All_in_hadooptest - 2019.09.22 at 11h 31m 28s.xml">
       <configuration name="All in hadooptest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_hadooptest - 2019.09.22 at 11h 32m 33s.xml">
+      <configuration name="All in hadooptest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_hadooptest - 2019.09.22 at 11h 32m 47s.xml">
+      <configuration name="All in hadooptest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_hadooptest - 2019.09.22 at 11h 33m 41s.xml">
+      <configuration name="All in hadooptest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_hadooptest - 2019.09.22 at 11h 34m 18s.xml">
+      <configuration name="All in hadooptest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7267000" />
+    <option name="totallyTimeSpent" value="7538000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="979" extended-state="6" />
@@ -343,10 +368,10 @@
       <window_info id="Capture Tool" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16239317" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.36263737" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="GraphQL" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3179256" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3179256" />
       <window_info anchor="bottom" id="Docker" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.32919955" />
@@ -358,7 +383,7 @@
       <window_info anchor="bottom" id="Serial Monitor" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1860203" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.1860203" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2581736" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -374,7 +399,7 @@
       <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Jms Messenger" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32967034" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32905984" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -471,16 +496,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="390">
-            <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/1.2.1/hadoop-core-1.2.1.jar!/org/apache/hadoop/mapred/Reducer.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -513,13 +528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
           <caret line="61" column="12" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -589,16 +597,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/microtema/hadoop/WordCounterMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/de/microtema/hadoop/WordCounterMapReducerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -609,15 +607,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/microtema/hadoop/WordCounterMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/de/microtema/hadoop/WordCounterMapperTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="80" column="113" selection-start-line="80" selection-start-column="113" selection-end-line="80" selection-end-column="113" />
+        <state relative-caret-position="477">
+          <caret line="76" column="109" selection-start-line="76" selection-start-column="109" selection-end-line="76" selection-end-column="109" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#946#947#0" expanded="true" />
             <element signature="e#999#1000#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="15">
+            <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="28" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="22" />
         </state>
       </provider>
     </entry>

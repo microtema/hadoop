@@ -1,2 +1,0 @@
-HDFS is a storage unit of hadoop
-MapReduce is a processing tool of hadoop
