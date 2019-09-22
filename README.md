@@ -46,3 +46,8 @@ MapReduce Word Count project
   
 >  http://localhost:9870/explorer.html#/r_output/part-00000
 
+## Links
+* https://hadoop.apache.org/
+* 
+* http://hanslen.me/2018/01/19/How-to-install-Hadoop-on-macOS-High-Sierra/
+

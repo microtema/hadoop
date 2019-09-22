@@ -7,14 +7,34 @@
     <groupId>de.microtema</groupId>
     <artifactId>hadoop-test</artifactId>
     <version>1.0-SNAPSHOT</version>
+
+    <name>Hadoop and MapReducer</name>
+    <description>Hadoop and MapReducer project</description>
+    <url>https://github.com/microtema/hadoop.git</url>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source.version>1.8</maven.compiler.source.version>
+        <maven.compiler.target.version>1.8</maven.compiler.target.version>
+        <maven.compiler.plugin>2.3.2</maven.compiler.plugin>
+        <hadoop.version>1.2.1</hadoop.version>
+        <commons.io.version>2.5</commons.io.version>
+        <junit.version>4.12</junit.version>
+        <model.builder.version>2.1.0</model.builder.version>
+        <mockito.version>2.23.4</mockito.version>
+    </properties>
+
     <build>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>${maven.compiler.plugin}</version>
+                <inherited>true</inherited>
                 <configuration>
-                    <source>8</source>
-                    <target>8</target>
+                    <source>${maven.compiler.source.version}</source>
+                    <target>${maven.compiler.target.version}</target>
+                    <encoding>${project.build.sourceEncoding}</encoding>
                 </configuration>
             </plugin>
         </plugins>
@@ -24,31 +44,68 @@
         <dependency>
             <groupId>org.apache.hadoop</groupId>
             <artifactId>hadoop-core</artifactId>
-            <version>1.2.1</version>
+            <version>${hadoop.version}</version>
         </dependency>
         <dependency>
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
-            <version>2.5</version>
+            <version>${commons.io.version}</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.12</version>
+            <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>de.7fate</groupId>
             <artifactId>model-builder
             </artifactId>
-            <version>2.1.0</version>
+            <version>${model.builder.version}</version>
         </dependency>
         <dependency>
             <groupId>org.mockito</groupId>
             <artifactId>mockito-core</artifactId>
-            <version>2.23.4</version>
+            <version>${mockito.version}</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
+
+    <licenses>
+        <license>
+            <name>The MIT License (MIT)</name>
+            <url>https://opensource.org/licenses/MIT</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <organization>
+        <name>Mario Tema</name>
+        <url>http://microtema.de</url>
+    </organization>
+
+    <scm>
+        <url>https://github.com/microtema/hadoop</url>
+        <connection>scm:git:git@github.com:microtema/hadoop.git</connection>
+        <developerConnection>scm:git:git@github.com:microtema/hadoop.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
+    <developers>
+        <developer>
+            <id>mtema</id>
+            <name>Mario Tema</name>
+            <email>microtema@web.com</email>
+            <organization>Mario Tema</organization>
+            <organizationUrl>http://www.microtema.de</organizationUrl>
+            <roles>
+                <role>developer</role>
+            </roles>
+            <timezone>Europe/Berlin</timezone>
+            <properties>
+                <picUrl>https://de.gravatar.com/userimage/70924930/12d1387ebc85adc526dc0ab008cf9dda.jpeg</picUrl>
+            </properties>
+        </developer>
+    </developers>
 
 </project>
