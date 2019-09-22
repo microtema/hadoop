@@ -24,6 +24,25 @@ MapReduce Word Count project
 > You can do this step over http://localhost:9870/explorer.html#/
 
 > <b>Step 3</b>
-  Write the MapReduce program
+  * Write the WordCounterMapper service
+  * Write the WordCounterMapReducer service
+  * Write the WordCounterApplication client
   
+> <b>Step 4</b>
+  Build application and create a jar file
+  
+  ``` mvn clear package ```
+  
+> <b>Step 5</b>
+  Run application
+  
+  ``` 
+  cd /target
+  hadoop jar hadoop-test-1.0-SNAPSHOT.jar de.microtema.hadoop.WordCounterApplication /microtema/data.txt /r_output
+   ```
+   
+> <b>Step 6</b>
+  The output is stored in /r_output
+  
+>  http://localhost:9870/explorer.html#/r_output/part-00000
 
